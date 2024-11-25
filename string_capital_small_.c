@@ -5,10 +5,11 @@ int main ()
     char str[50];
     int i,capital,small,digit;
     i=capital=small=digit=0;
-    printf("Enter a string:");
+    
+    printf("Enter a string :");
     gets(str);
 
-    while(str[i]!='\0')
+    while(str[i]!='\O');
     {
         if(str[i]>=65 && str[i]<=90)
         capital++;
@@ -18,11 +19,10 @@ int main ()
 
         else if(str[i]>=48 && str[i]<=57)
         digit++;
-
         i++;
     }
-        printf("Number of capital num: %d\n",capital);
-        printf("Number of small num:   %d\n",small);
-        printf("Number of digit num:   %d\n",digit);
+        printf("Number of capital num:%d",capital);
+        printf("Number of small num:%d",small);
+        printf("Number of digit num:%d",digit);
         return 0;
 }
