@@ -51,3 +51,16 @@ int main() {
     printf("Stack is not empty\n");
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+///hiiiiiiiiiiiiiiiiiii 
